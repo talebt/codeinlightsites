@@ -954,6 +954,10 @@ section {
         -ms-flex-pack: center;
             justify-content: center;
   }
+   .video iframe{
+    width:350px;
+    height: 300px;
+}
   .home .slide .content {
     text-align: center;
   }
@@ -969,11 +973,5 @@ section {
   .about .row .content h3 {
     font-size: 2.5rem;
   }
+   
 }
-@media(max-width: 400px){
-   .video iframe{
-    width:345px;
-    height: 300px;
-  }
-}
-/*# sourceMappingURL=style.css.map */
