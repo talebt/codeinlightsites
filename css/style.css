@@ -471,6 +471,10 @@ section {
 .about .row .video video {
   width: 100%;
 }
+.video iframe{
+  border: 5px solid black;
+  border-radius: 7%;
+}
 
 .about .row .content {
   -webkit-box-flex: 1;
@@ -964,6 +968,12 @@ section {
   }
   .about .row .content h3 {
     font-size: 2.5rem;
+  }
+}
+@media(max-width: 500px){
+   .video iframe{
+    width:470px;
+    height: 400px;
   }
 }
 /*# sourceMappingURL=style.css.map */
