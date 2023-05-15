@@ -603,10 +603,10 @@ section {
 }
 
 .projects .box-container .box .image img {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  height: 410px;
+  width: 425px;
+  /* -o-object-fit:inherit; */
+     object-fit:fill;
   -webkit-transition: .2s linear;
   transition: .2s linear;
 }
