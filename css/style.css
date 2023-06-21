@@ -22,11 +22,13 @@
 
 html {
   font-size: 62.5%;
-  overflow-x: hidden;
+    overflow-x: hidden !important;
   scroll-behavior: smooth;
   scroll-padding-top: 7rem;
 }
-
+body {
+    overflow-x: hidden !important;
+}
 html::-webkit-scrollbar {
   width: 1rem;
 }
